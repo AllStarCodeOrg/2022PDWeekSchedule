@@ -7,29 +7,69 @@
     {
       daynum: '1',
       title: 'June 27th',
-      activities: [],
+      activities: [
+        {
+          name: 'Icebreaker',
+          time: '9:00 AM - 9:30 AM',
+          duration: '30',
+          actType: 'teambuilding',
+          links: [],
+        },
+      ],
     },
     {
       daynum: '2',
       title: 'June 28th',
-      activities: [],
+      activities: [
+        {
+          name: 'Icebreaker',
+          time: '9:00 AM - 9:30 AM',
+          duration: '30',
+          actType: 'teambuilding',
+          links: [],
+        },
+      ],
     },
     {
       daynum: '3',
       title: 'June 29th',
-      activities: [],
+      activities: [
+        {
+          name: 'Icebreaker',
+          time: '9:00 AM - 9:30 AM',
+          duration: '30',
+          actType: 'teambuilding',
+          links: [],
+        },
+      ],
     },
     {
       daynum: '4',
       title: 'June 30th',
-      activities: [],
+      activities: [
+        {
+          name: 'Icebreaker',
+          time: '9:00 AM - 9:30 AM',
+          duration: '30',
+          actType: 'teambuilding',
+          links: [],
+        },
+      ],
     },
     {
       daynum: '5',
       title: 'July 1st',
-      activities: [],
+      activities: [
+        {
+          name: 'Icebreaker',
+          time: '9:00 AM - 9:30 AM',
+          duration: '30',
+          actType: 'teambuilding',
+          links: [],
+        },
+      ],
     },
-  ]
+  ];
 </script>
 
 <ul class="collapsible">
