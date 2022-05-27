@@ -110,14 +110,14 @@
       on:click={LITATFClicked}
       bind:this={LITATFBtn}
     >
-      LI/TA/TF Schedule
+      LI/TA/TF
     </button>
     <button
       class="waves-effect waves-light btn btn-large schedule-btn"
       on:click={SICClicked}
       bind:this={SICBtn}
     >
-      SIC schedule
+      SIC
     </button>
   </div>
   <ul class="collapsible">
