@@ -2,74 +2,9 @@
   import ScheduleBlock from './components/ScheduleBlock.svelte';
   import AllMatsLink from './components/AllMatsLink.svelte';
   import type { Schedule } from './index';
+  import { allData } from './data/LITATF';
 
-  const data: Schedule = [
-    {
-      daynum: '1',
-      title: 'June 27th',
-      activities: [
-        {
-          name: 'Icebreaker',
-          time: '9:00 AM - 9:30 AM',
-          duration: '30',
-          actType: 'teambuilding',
-          links: [],
-        },
-      ],
-    },
-    {
-      daynum: '2',
-      title: 'June 28th',
-      activities: [
-        {
-          name: 'Icebreaker',
-          time: '9:00 AM - 9:30 AM',
-          duration: '30',
-          actType: 'teambuilding',
-          links: [],
-        },
-      ],
-    },
-    {
-      daynum: '3',
-      title: 'June 29th',
-      activities: [
-        {
-          name: 'Icebreaker',
-          time: '9:00 AM - 9:30 AM',
-          duration: '30',
-          actType: 'teambuilding',
-          links: [],
-        },
-      ],
-    },
-    {
-      daynum: '4',
-      title: 'June 30th',
-      activities: [
-        {
-          name: 'Icebreaker',
-          time: '9:00 AM - 9:30 AM',
-          duration: '30',
-          actType: 'teambuilding',
-          links: [],
-        },
-      ],
-    },
-    {
-      daynum: '5',
-      title: 'July 1st',
-      activities: [
-        {
-          name: 'Icebreaker',
-          time: '9:00 AM - 9:30 AM',
-          duration: '30',
-          actType: 'teambuilding',
-          links: [],
-        },
-      ],
-    },
-  ];
+  const data: Schedule = allData;
 </script>
 
 <ul class="collapsible">

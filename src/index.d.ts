@@ -1,9 +1,17 @@
 export type LinkInfo = {
   displayText: string;
   linkURL: string;
-}
+};
 
-export type ActivityTypes = 'coreskill' | 'teambuilding' | 'misc' | 'project' | 'survey' | 'officehours' | 'codealong'
+export type ActivityTypes =
+  | 'coreskill'
+  | 'lecture'
+  | 'teambuilding'
+  | 'misc'
+  | 'project'
+  | 'survey'
+  | 'officehours'
+  | 'codealong';
 
 export type Activity = {
   name: string;
@@ -11,13 +19,12 @@ export type Activity = {
   duration: string;
   actType: ActivityTypes;
   links: LinkInfo[];
-}
-
+};
 
 export type Day = {
   daynum: string;
   title: string;
   activities: Activity[];
-}
+};
 
 export type Schedule = Day[];
