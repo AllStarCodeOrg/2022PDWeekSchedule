@@ -1,8 +1,35 @@
 <script lang="ts">
   import ScheduleBlock from './components/ScheduleBlock.svelte';
   import AllMatsLink from './components/AllMatsLink.svelte';
+  import type { Schedule } from './index';
 
-  const data = []
+  const data: Schedule = [
+    {
+      daynum: '1',
+      title: 'June 27th',
+      activities: [],
+    },
+    {
+      daynum: '2',
+      title: 'June 28th',
+      activities: [],
+    },
+    {
+      daynum: '3',
+      title: 'June 29th',
+      activities: [],
+    },
+    {
+      daynum: '4',
+      title: 'June 30th',
+      activities: [],
+    },
+    {
+      daynum: '5',
+      title: 'July 1st',
+      activities: [],
+    },
+  ]
 </script>
 
 <ul class="collapsible">
