@@ -1,9 +1,9 @@
-import type { Schedule } from "src";
+import type { Schedule } from 'src';
 
 export const allData: Schedule = [
   {
     daynum: '1',
-    title: 'June 28th',
+    title: 'June 27th',
     activities: [
       {
         name: 'Welcome to PD Week',
@@ -200,7 +200,7 @@ export const allData: Schedule = [
   },
   {
     daynum: '2',
-    title: 'June 29th',
+    title: 'June 28th',
     activities: [
       {
         name: 'First Peek at Remote Teaching',
@@ -340,7 +340,7 @@ export const allData: Schedule = [
   },
   {
     daynum: '3',
-    title: 'June 30th',
+    title: 'June 29th',
     activities: [
       {
         name: 'Team Building',
@@ -459,7 +459,7 @@ export const allData: Schedule = [
   },
   {
     daynum: '4',
-    title: 'July 1st',
+    title: 'June 30th',
     activities: [
       {
         name: 'Team Building',
@@ -567,7 +567,7 @@ export const allData: Schedule = [
   },
   {
     daynum: '5',
-    title: 'July 2nd',
+    title: 'July 1st',
     activities: [
       {
         name: 'Team Building',
