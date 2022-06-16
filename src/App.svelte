@@ -1,5 +1,5 @@
 <script lang="ts">
-  import asterik from './assets/ASC_ASTERIK.svg';
+  import asterik from './assets/logo.svg';
   import LITATF from './LITATF.svelte';
   import SIC from './SIC.svelte';
   import anime from 'animejs';
