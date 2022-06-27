@@ -7,4 +7,4 @@
 # ASC PD Week Schedule Website
 
 This repo is home to the ASC PD Week Website. Built with **Typescript, Svelte, & Vite** and hosted on github pages.
-Note that the large objects used to generate the schedule are generated elsewhere. 
+Note that the large objects used to generate the schedule are generated elsewhere.
